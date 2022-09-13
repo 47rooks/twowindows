@@ -15,8 +15,12 @@
 
 	<!-- ____________________________ Window Settings ___________________________ -->
 
-	<!--These window settings apply to all targets-->
+	<!--These window settings apply to all targets
+		First line makes a default width main window.
+		Second line makes the make window as wide as the second window.
+	-->
 	<window width="640" height="480" fps="60" background="#000000" hardware="true" vsync="false" />
+	<!-- <window width="800" height="480" fps="60" background="#000000" hardware="true" vsync="false" /> -->
 
 	<!--HTML5-specific-->
 	<window if="html5" resizable="false" />
