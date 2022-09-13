@@ -9,4 +9,4 @@ flixel: [4.11.0]
 lime: [8.0.0]
 openfl: [9.2.0]
 
-It uses the technique of rendering to a camera which is off-screen and then copying its canvas to a Bitmap on the second window.
+It uses the technique of rendering to a camera which is off-screen and then copying its canvas to a Bitmap on the second window. Note that this will only really have any hope of working on sys targets. It certainly won't work in a browser.
